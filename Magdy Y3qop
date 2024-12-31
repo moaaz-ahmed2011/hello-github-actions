@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<title>Magdi Yacoub informations</title>
+	</head>
+
+<body>
+<h1>Magdi Yacoub</h1>
+	<p>-Magdi Habib Yacoub is an Egyptian-British retired professor of cardiothoracic surgery at Imperial College London</p><p>
+ best known for his early work in repairing heart valves with surgeon Donald Ross, adapting.
+-
+	</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM-gQI1sRy7NxzMO6FXOLRS8QZ7JMukIcpkQ&s" alt="Magdi Yacoub" width="100" height="100">
+<a href="https://youtu.be/IxPwfZnvExo">press here to watch a video for Magdi Yacoub</a>
+<p>or press </p> <button onclick="window.location.href='https://youtu.be/IxPwfZnvExo';">Here</button>
+
+	<style>
+	body {
+background-color: #87CEEB;
+
+	}
+	</style>
+<button onclick="showElement()">show image</button>
+  <button onclick="hideElement()">hide image</button>
+  
+  <div id="myElement" class="hidden">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Heart_Surgeon_Prof_Magdy_Yacoub.jpg/800px-Heart_Surgeon_Prof_Magdy_Yacoub.jpg" alt="د. مجدي يعقوب" width="300">
+  </div>
+
+  <script>
+    function showElement() {
+      document.getElementById("myElement").classList.remove("hidden");
+    }
+
+    function hideElement() {
+      document.getElementById("myElement").classList.add("hidden");
+    }
+  </script>
+
+</body>
+</html>
